@@ -12,10 +12,10 @@ namespace NostalgiaOrbitDLL.Items
             ItemType = ItemTypes.LF_3;
 
             CanBuyUridium = true;
-            CreditPurchase = new List<int>(10000);
+            CreditPurchase = new List<float>(10000);
 
             CanSellByCredit = true;
-            CreditSale = new List<int>(50000);
+            CreditSale = new List<float>(50000);
 
             IsLaser = true;
             LaserDamage = 180;

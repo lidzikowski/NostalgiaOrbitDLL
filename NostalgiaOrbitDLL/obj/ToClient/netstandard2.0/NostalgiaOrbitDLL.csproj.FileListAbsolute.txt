@@ -8,3 +8,12 @@ C:\Users\Lukasz\Documents\GitHub\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClien
 C:\Users\Lukasz\Documents\GitHub\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.pdb
 C:\Users\Lukasz\Documents\GitHub\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.csproj.CoreCompileInputs.cache
 C:\Users\Lukasz\Documents\GitHub\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.csprojAssemblyReference.cache
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.AssemblyInfoInputs.cache
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.AssemblyInfo.cs
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.csproj.CoreCompileInputs.cache
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.csproj.CopyComplete
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.dll
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.pdb
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.deps.json
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.dll
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.pdb

@@ -12,10 +12,10 @@ namespace NostalgiaOrbitDLL.Items
             ItemType = ItemTypes.REP_3;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<int>(5000);
+            UridiumPurchase = new List<float>(5000);
 
             CanSellByCredit = true;
-            CreditSale = new List<int>(25000);
+            CreditSale = new List<float>(25000);
 
             IsExtras = true;
             ExtrasCanRepair = true;

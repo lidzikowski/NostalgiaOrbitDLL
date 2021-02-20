@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj": {}
+    "C:\\Users\\Lukasz\\Documents\\GitHub\\Game\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj": {
+    "C:\\Users\\Lukasz\\Documents\\GitHub\\Game\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj",
+        "projectUniqueName": "C:\\Users\\Lukasz\\Documents\\GitHub\\Game\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj",
         "projectName": "NostalgiaOrbitDLL",
-        "projectPath": "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj",
+        "projectPath": "C:\\Users\\Lukasz\\Documents\\GitHub\\Game\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj",
         "packagesPath": "C:\\Users\\Lukasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\obj\\",
+        "outputPath": "C:\\Users\\Lukasz\\Documents\\GitHub\\Game\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -22,7 +22,7 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 400;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<int>(64000);
+            CreditPurchase = new List<float>(64000);
 
             Reward = new Reward()
             {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NostalgiaOrbitDLL.Resources
 {
@@ -13,6 +14,16 @@ namespace NostalgiaOrbitDLL.Resources
             ShotProbability = 90;
 
             Damage = 4000;
+
+            CanBuyUridium = true;
+            UridiumPurchase = new List<float>() {
+                5,
+            };
+
+            CanSellByCredit = true;
+            CreditSale = new List<float>() {
+                50,
+            };
         }
     }
 }

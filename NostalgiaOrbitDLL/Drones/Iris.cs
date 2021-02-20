@@ -15,7 +15,7 @@ namespace NostalgiaOrbitDLL.Drones
             LaserOrShieldSlots = 2;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<int>() {
+            CreditPurchase = new List<float>() {
                 15000,
                 24000,
                 42000,
@@ -27,7 +27,7 @@ namespace NostalgiaOrbitDLL.Drones
             };
 
             CanSellByCredit = true;
-            CreditSale = new List<int>() {
+            CreditSale = new List<float>() {
                 37500,
                 60000,
                 105000,

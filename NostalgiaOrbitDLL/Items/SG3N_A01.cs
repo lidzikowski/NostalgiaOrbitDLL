@@ -12,10 +12,10 @@ namespace NostalgiaOrbitDLL.Items
             ItemType = ItemTypes.SG3N_A01;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<int>(8000);
+            CreditPurchase = new List<float>(8000);
 
             CanSellByCredit = true;
-            CreditSale = new List<int>(2000);
+            CreditSale = new List<float>(2000);
 
             IsShield = true;
             Shield = 1000;

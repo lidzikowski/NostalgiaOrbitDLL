@@ -22,7 +22,7 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 1500;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<int>(800000);
+            UridiumPurchase = new List<float>(800000);
 
             Reward = new Reward()
             {
