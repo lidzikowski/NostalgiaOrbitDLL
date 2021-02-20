@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FVm8Xu54a0FEt1l9D1qCmPcfSgCShRtw7EX051aX3vy/56jdx1saeDgC7cNfM68P+TsAPW0NtGtKg6NUwYiWlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lukasz\\Documents\\GitHub\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL\\NostalgiaOrbitDLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lukasz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lukasz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
