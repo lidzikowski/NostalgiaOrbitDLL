@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Vengeance()
         {
             ShipType = PrefabTypes.vengeance_type;
+            ItemShopType = ItemShopTypes.Vengeance;
 
             Hitpoints = 180000;
             Speed = 360;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 1000;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<float>(30000);
+            UridiumPurchase = new List<float>()
+            {
+                30000
+            };
 
             Reward = new Reward()
             {

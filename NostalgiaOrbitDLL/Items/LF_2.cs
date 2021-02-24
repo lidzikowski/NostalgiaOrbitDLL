@@ -10,12 +10,19 @@ namespace NostalgiaOrbitDLL.Items
         public LF_2()
         {
             ItemType = ItemTypes.LF_2;
+            ItemShopType = ItemShopTypes.LF_2;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<float>(5000);
+            UridiumPurchase = new List<float>()
+            {
+                5000
+            };
 
             CanSellByCredit = true;
-            CreditSale = new List<float>(25000);
+            CreditSale = new List<float>()
+            {
+                25000
+            };
 
             IsLaser = true;
             LaserDamage = 120;

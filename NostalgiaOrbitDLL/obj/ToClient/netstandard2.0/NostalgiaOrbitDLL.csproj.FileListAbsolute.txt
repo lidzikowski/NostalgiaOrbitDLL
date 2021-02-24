@@ -17,3 +17,4 @@ C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\To
 C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.deps.json
 C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.dll
 C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbit\Assets\DLL\netstandard2.0\NostalgiaOrbitDLL.pdb
+C:\Users\Lukasz\Documents\GitHub\Game\NostalgiaOrbitDLL\NostalgiaOrbitDLL\obj\ToClient\netstandard2.0\NostalgiaOrbitDLL.csprojAssemblyReference.cache

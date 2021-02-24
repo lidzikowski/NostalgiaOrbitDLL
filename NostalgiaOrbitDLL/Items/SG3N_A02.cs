@@ -10,12 +10,19 @@ namespace NostalgiaOrbitDLL.Items
         public SG3N_A02()
         {
             ItemType = ItemTypes.SG3N_A02;
+            ItemShopType = ItemShopTypes.SG3N_A02;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(16000);
+            CreditPurchase = new List<float>()
+            {
+                16000
+            };
 
             CanSellByCredit = true;
-            CreditSale = new List<float>(4000);
+            CreditSale = new List<float>()
+            {
+                4000
+            };
 
             IsShield = true;
             Shield = 2000;

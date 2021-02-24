@@ -10,6 +10,7 @@ namespace NostalgiaOrbitDLL.Resources
         public Rocket1()
         {
             ResourceType = ResourceTypes.Rocket1;
+            ItemShopType = ItemShopTypes.Rocket1;
 
             ShotProbability = 70;
 

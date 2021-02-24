@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Goliath()
         {
             ShipType = PrefabTypes.goliath_type;
+            ItemShopType = ItemShopTypes.Goliath;
 
             Hitpoints = 256000;
             Speed = 300;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 1500;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<float>(800000);
+            UridiumPurchase = new List<float>()
+            {
+                800000
+            };
 
             Reward = new Reward()
             {

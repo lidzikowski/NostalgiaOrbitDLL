@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Leonov()
         {
             ShipType = PrefabTypes.leonov_type;
+            ItemShopType = ItemShopTypes.Leonov;
 
             Hitpoints = 64000;
             Speed = 360;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 500;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<float>(9000);
+            UridiumPurchase = new List<float>()
+            {
+                9000
+            };
 
             Reward = new Reward()
             {

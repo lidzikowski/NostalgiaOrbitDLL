@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Piranha()
         {
             ShipType = PrefabTypes.piranha_type;
+            ItemShopType = ItemShopTypes.Piranha;
 
             Hitpoints = 32000;
             Speed = 320;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 500;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(80000);
+            CreditPurchase = new List<float>()
+            {
+                80000
+            };
 
             Reward = new Reward()
             {

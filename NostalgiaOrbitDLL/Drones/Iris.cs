@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Drones
         public Iris()
         {
             DroneType = DroneTypes.Iris;
+            ItemShopType = ItemShopTypes.Iris;
 
             LaserOrShieldSlots = 2;
 

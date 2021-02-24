@@ -10,12 +10,19 @@ namespace NostalgiaOrbitDLL.Items
         public B01()
         {
             ItemType = ItemTypes.B01;
+            ItemShopType = ItemShopTypes.B01;
 
             CanBuyUridium = true;
-            UridiumPurchase = new List<float>(2500);
+            UridiumPurchase = new List<float>()
+            {
+                2500
+            };
 
             CanSellByCredit = true;
-            CreditSale = new List<float>(10000);
+            CreditSale = new List<float>()
+            {
+                10000
+            };
 
             IsShield = true;
             Shield = 4000;

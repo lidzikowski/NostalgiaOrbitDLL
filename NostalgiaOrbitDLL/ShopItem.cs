@@ -4,6 +4,8 @@ namespace NostalgiaOrbitDLL
 {
     public abstract class ShopItem
     {
+        public ItemShopTypes ItemShopType { get; set; }
+
         // Credits
         public bool CanBuyByCredit { get; protected set; }
         public List<float> CreditPurchase { get; protected set; }

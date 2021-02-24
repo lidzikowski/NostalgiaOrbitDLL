@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Nostromo()
         {
             ShipType = PrefabTypes.nostromo_type;
+            ItemShopType = ItemShopTypes.Nostromo;
 
             Hitpoints = 64000;
             Speed = 340;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 600;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(100000);
+            CreditPurchase = new List<float>()
+            {
+                100000
+            };
 
             Reward = new Reward()
             {

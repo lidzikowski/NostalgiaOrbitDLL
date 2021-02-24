@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Liberator()
         {
             ShipType = PrefabTypes.liberator_type;
+            ItemShopType = ItemShopTypes.Liberator;
 
             Hitpoints = 16000;
             Speed = 300;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 400;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(64000);
+            CreditPurchase = new List<float>()
+            {
+                64000
+            };
 
             Reward = new Reward()
             {

@@ -22,29 +22,22 @@ namespace NostalgiaOrbitDLL.Resources
 
         public static AbstractResource GetResourceByType(ResourceTypes resourceType)
         {
-            switch (resourceType)
+            return resourceType switch
             {
-                case ResourceTypes.Ammunition1:
-                    return Ammunition1.Instance;
-                case ResourceTypes.Ammunition2:
-                    return Ammunition2.Instance;
-                case ResourceTypes.Ammunition3:
-                    return Ammunition3.Instance;
-                case ResourceTypes.Ammunition4:
-                    return Ammunition4.Instance;
-                case ResourceTypes.AmmunitionSab:
-                    return AmmunitionSab.Instance;
+                ResourceTypes.Ammunition1 => Ammunition1.Instance,
+                ResourceTypes.Ammunition2 => Ammunition2.Instance,
+                ResourceTypes.Ammunition3 => Ammunition3.Instance,
+                ResourceTypes.Ammunition4 => Ammunition4.Instance,
+                ResourceTypes.AmmunitionSab => AmmunitionSab.Instance,
 
-                case ResourceTypes.Rocket1:
-                    return Rocket1.Instance;
-                case ResourceTypes.Rocket2:
-                    return Rocket2.Instance;
-                case ResourceTypes.Rocket3:
-                    return Rocket3.Instance;
+                ResourceTypes.Rocket1 => Rocket1.Instance,
+                ResourceTypes.Rocket2 => Rocket2.Instance,
+                ResourceTypes.Rocket3 => Rocket3.Instance,
 
-                default:
-                    throw new NotImplementedException(resourceType.ToString());
-            }
+                ResourceTypes.Mine => Mine.Instance,
+
+                _ => throw new NotImplementedException(resourceType.ToString()),
+            };
         }
     }
 }

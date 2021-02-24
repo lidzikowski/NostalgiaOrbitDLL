@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Defcom()
         {
             ShipType = PrefabTypes.defcom_type;
+            ItemShopType = ItemShopTypes.Defcom;
 
             Hitpoints = 12000;
             Speed = 280;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 300;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(32000);
+            CreditPurchase = new List<float>()
+            {
+                32000
+            };
 
             Reward = new Reward()
             {

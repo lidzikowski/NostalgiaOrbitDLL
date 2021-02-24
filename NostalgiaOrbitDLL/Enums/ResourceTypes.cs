@@ -16,6 +16,8 @@ namespace NostalgiaOrbitDLL
         Rocket2 = 11,
         Rocket3 = 12,
 
+        Mine = 15,
+
         Prometium = 20,
         Endurium = 21,
         Terbium = 22,

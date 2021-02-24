@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Drones
         public Flax()
         {
             DroneType = DroneTypes.Flax;
+            ItemShopType = ItemShopTypes.Flax;
 
             LaserOrShieldSlots = 1;
 

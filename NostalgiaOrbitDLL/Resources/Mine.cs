@@ -4,26 +4,26 @@ using System.Collections.Generic;
 namespace NostalgiaOrbitDLL.Resources
 {
     [Serializable]
-    public class Rocket3 : AbstractResource
+    public class Mine : AbstractResource
     {
-        public static Rocket3 Instance { get; } = new Rocket3();
-        public Rocket3()
+        public static Mine Instance { get; } = new Mine();
+        public Mine()
         {
-            ResourceType = ResourceTypes.Rocket3;
-            ItemShopType = ItemShopTypes.Rocket3;
+            ResourceType = ResourceTypes.Mine;
+            ItemShopType = ItemShopTypes.Mine;
 
-            ShotProbability = 90;
+            ShotProbability = 100;
 
-            Damage = 4000;
+            Damage = 50000;
 
             CanBuyUridium = true;
             UridiumPurchase = new List<float>() {
-                5,
+                100,
             };
 
             CanSellByCredit = true;
             CreditSale = new List<float>() {
-                50,
+                500,
             };
         }
     }

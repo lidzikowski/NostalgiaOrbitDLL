@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Yamato()
         {
             ShipType = PrefabTypes.yamato_type;
+            ItemShopType = ItemShopTypes.Yamato;
 
             Hitpoints = 8000;
             Speed = 240;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 200;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(16000);
+            CreditPurchase = new List<float>()
+            {
+                16000
+            };
 
             Reward = new Reward()
             {

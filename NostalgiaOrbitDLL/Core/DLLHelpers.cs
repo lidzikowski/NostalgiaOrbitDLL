@@ -1,4 +1,6 @@
-﻿using NostalgiaOrbitDLL.Items;
+﻿using NostalgiaOrbitDLL.Drones;
+using NostalgiaOrbitDLL.Items;
+using NostalgiaOrbitDLL.Resources;
 using NostalgiaOrbitDLL.Ships;
 using System;
 using System.Collections.Generic;
@@ -92,6 +94,53 @@ namespace NostalgiaOrbitDLL.Core
         #endregion BCrypt SHA512
 
         #region Enum helpers
+        public static ShopItem GetShopItem(ItemShopTypes itemShopType)
+        {
+            return itemShopType switch
+            {
+                ItemShopTypes.Phoenix => Phoenix.Instance,
+                ItemShopTypes.Yamato => Yamato.Instance,
+                ItemShopTypes.Leonov => Leonov.Instance,
+                ItemShopTypes.Defcom => Defcom.Instance,
+                ItemShopTypes.Liberator => Liberator.Instance,
+                ItemShopTypes.Piranha => Piranha.Instance,
+                ItemShopTypes.Nostromo => Nostromo.Instance,
+                ItemShopTypes.Vengeance => Vengeance.Instance,
+                ItemShopTypes.BigBoy => BigBoy.Instance,
+                ItemShopTypes.Goliath => Goliath.Instance,
+                ItemShopTypes.Flax => Flax.Instance,
+                ItemShopTypes.Iris => Iris.Instance,
+                ItemShopTypes.LF_1 => LF_1.Instance,
+                ItemShopTypes.MP_1 => MP_1.Instance,
+                ItemShopTypes.LF_2 => LF_2.Instance,
+                ItemShopTypes.LF_3 => LF_3.Instance,
+                ItemShopTypes.Ammunition1 => Ammunition1.Instance,
+                ItemShopTypes.Ammunition2 => Ammunition2.Instance,
+                ItemShopTypes.Ammunition3 => Ammunition3.Instance,
+                ItemShopTypes.AmmunitionSab => AmmunitionSab.Instance,
+                ItemShopTypes.Rocket1 => Rocket1.Instance,
+                ItemShopTypes.Rocket2 => Rocket2.Instance,
+                ItemShopTypes.Rocket3 => Rocket3.Instance,
+                ItemShopTypes.Mine => Mine.Instance,
+                ItemShopTypes.G3N_1010 => G3N_1010.Instance,
+                ItemShopTypes.G3N_2010 => G3N_2010.Instance,
+                ItemShopTypes.G3N_3210 => G3N_3210.Instance,
+                ItemShopTypes.G3N_3310 => G3N_3310.Instance,
+                ItemShopTypes.G3N_6900 => G3N_6900.Instance,
+                ItemShopTypes.G3N_7900 => G3N_7900.Instance,
+                ItemShopTypes.SG3N_A01 => SG3N_A01.Instance,
+                ItemShopTypes.SG3N_A02 => SG3N_A02.Instance,
+                ItemShopTypes.SG3N_A03 => SG3N_A03.Instance,
+                ItemShopTypes.B01 => B01.Instance,
+                ItemShopTypes.B02 => B02.Instance,
+                ItemShopTypes.REP_1 => REP_1.Instance,
+                ItemShopTypes.REP_2 => REP_2.Instance,
+                ItemShopTypes.REP_3 => REP_3.Instance,
+
+                _ => throw new NotImplementedException(itemShopType.ToString()),
+            };
+        }
+
         public static bool IsCompanyMap(FirmTypes firmType, MapTypes currentMap, List<MapTypes> bonusMaps)
         {
             if (!bonusMaps.Contains(currentMap))

@@ -11,6 +11,7 @@ namespace NostalgiaOrbitDLL.Ships
         public Phoenix()
         {
             ShipType = PrefabTypes.phoenix_type;
+            ItemShopType = ItemShopTypes.Phoenix;
 
             Hitpoints = 4000;
             Speed = 320;
@@ -22,7 +23,10 @@ namespace NostalgiaOrbitDLL.Ships
             CargoSize = 200;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(0);
+            CreditPurchase = new List<float>()
+            {
+                0
+            };
 
             Reward = new Reward()
             {

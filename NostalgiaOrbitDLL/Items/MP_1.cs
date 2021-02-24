@@ -10,12 +10,19 @@ namespace NostalgiaOrbitDLL.Items
         public MP_1()
         {
             ItemType = ItemTypes.MP_1;
+            ItemShopType = ItemShopTypes.MP_1;
 
             CanBuyByCredit = true;
-            CreditPurchase = new List<float>(40000);
+            CreditPurchase = new List<float>()
+            {
+                40000
+            };
 
             CanSellByCredit = true;
-            CreditSale = new List<float>(10000);
+            CreditSale = new List<float>()
+            {
+                10000
+            };
 
             IsLaser = true;
             LaserDamage = 80;
