@@ -45,16 +45,16 @@ namespace NostalgiaOrbitDLL.Enemies
 
             ExperiencePerKill = new List<DroneExperience>() // TODO
             {
-                new DroneExperience(PrefabTypes.phoenix_type,   10),
-                new DroneExperience(PrefabTypes.yamato_type,    10),
-                new DroneExperience(PrefabTypes.leonov_type,    10),
-                new DroneExperience(PrefabTypes.defcom_type,    10),
-                new DroneExperience(PrefabTypes.liberator_type, 10),
-                new DroneExperience(PrefabTypes.piranha_type,   10),
-                new DroneExperience(PrefabTypes.nostromo_type,  10),
-                new DroneExperience(PrefabTypes.vengeance_type, 20),
-                new DroneExperience(PrefabTypes.bigboy_type,    20),
-                new DroneExperience(PrefabTypes.goliath_type,   25),
+                new DroneExperience(PrefabTypes.Phoenix_type,   10),
+                new DroneExperience(PrefabTypes.Yamato_type,    10),
+                new DroneExperience(PrefabTypes.Leonov_type,    10),
+                new DroneExperience(PrefabTypes.Defcom_type,    10),
+                new DroneExperience(PrefabTypes.Liberator_type, 10),
+                new DroneExperience(PrefabTypes.Piranha_type,   10),
+                new DroneExperience(PrefabTypes.Nostromo_type,  10),
+                new DroneExperience(PrefabTypes.Vengeance_type, 20),
+                new DroneExperience(PrefabTypes.Bigboy_type,    20),
+                new DroneExperience(PrefabTypes.Goliath_type,   25),
             };
         }
     }

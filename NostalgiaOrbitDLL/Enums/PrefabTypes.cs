@@ -11,67 +11,67 @@ namespace NostalgiaOrbitDLL
         Phoenix_medium = 1,
         Phoenix_full = 2,
 
-        phoenix_type = 3,// = Phoenix_normal | Phoenix_medium | Phoenix_full,
+        Phoenix_type = 3,// = Phoenix_normal | Phoenix_medium | Phoenix_full,
 
         Yamato_normal = 10,
         Yamato_medium = 11,
         Yamato_full = 12,
 
-        yamato_type = 13,//  = Yamato_normal | Yamato_medium | Yamato_full,
+        Yamato_type = 13,//  = Yamato_normal | Yamato_medium | Yamato_full,
 
         Leonov_normal = 20,
         Leonov_medium = 21,
         Leonov_full = 22,
 
-        leonov_type = 23,//  = Leonov_normal | Leonov_medium | Leonov_full,
+        Leonov_type = 23,//  = Leonov_normal | Leonov_medium | Leonov_full,
 
         Defcom_normal = 30,
         Defcom_medium = 31,
         Defcom_full = 32,
 
-        defcom_type = 33,//  = Defcom_normal | Defcom_medium | Defcom_full,
+        Defcom_type = 33,//  = Defcom_normal | Defcom_medium | Defcom_full,
 
         Liberator_normal = 40,
         Liberator_medium = 41,
         Liberator_full = 42,
 
-        liberator_type = 43,//  = Liberator_normal | Liberator_medium | Liberator_full,
+        Liberator_type = 43,//  = Liberator_normal | Liberator_medium | Liberator_full,
 
         Piranha_normal = 50,
         Piranha_medium = 51,
         Piranha_full = 52,
 
-        piranha_type = 53,//  = Piranha_normal | Piranha_medium | Piranha_full,
+        Piranha_type = 53,//  = Piranha_normal | Piranha_medium | Piranha_full,
 
         Nostromo_normal = 60,
         Nostromo_medium = 61,
         Nostromo_full = 62,
 
-        nostromo_type = 63,//  = Nostromo_normal | Nostromo_medium | Nostromo_full,
+        Nostromo_type = 63,//  = Nostromo_normal | Nostromo_medium | Nostromo_full,
 
         Vengeance_normal = 70,
         Vengeance_medium = 71,
         Vengeance_full = 72,
 
-        vengeance_type = 73,//  = Vengeance_normal | Vengeance_medium | Vengeance_full,
+        Vengeance_type = 73,//  = Vengeance_normal | Vengeance_medium | Vengeance_full,
 
         Bigboy_normal = 80,
         Bigboy_medium = 81,
         Bigboy_full = 82,
 
-        bigboy_type = 83,//  = Bigboy_normal | Bigboy_medium | Bigboy_full | Bigboy_red_normal | Bigboy_red_medium | Bigboy_red_full | Bigboy_green_normal | Bigboy_green_medium | Bigboy_green_full,
+        Bigboy_type = 83,//  = Bigboy_normal | Bigboy_medium | Bigboy_full | Bigboy_red_normal | Bigboy_red_medium | Bigboy_red_full | Bigboy_green_normal | Bigboy_green_medium | Bigboy_green_full,
 
         Bigboy_red_normal = 90,
         Bigboy_red_medium = 91,
         Bigboy_red_full = 92,
 
-        bigboy_red_type = 93,
+        Bigboy_red_type = 93,
 
         Bigboy_green_normal = 100,
         Bigboy_green_medium = 101,
         Bigboy_green_full = 102,
 
-        bigboy_green_type = 103,
+        Bigboy_green_type = 103,
 
         all_bigboy_type = 104,//  = Bigboy_normal | Bigboy_medium | Bigboy_full | Bigboy_red_normal | Bigboy_red_medium | Bigboy_red_full | Bigboy_green_normal | Bigboy_green_medium | Bigboy_green_full,
 
@@ -80,23 +80,23 @@ namespace NostalgiaOrbitDLL
         Goliath_medium = 111,
         Goliath_full = 112,
 
-        goliath_type = 113,//  = Goliath_normal | Goliath_medium | Goliath_full | Goliath_yellow_normal | Goliath_yellow_medium | Goliath_yellow_full | Goliath_red_normal | Goliath_red_medium | Goliath_red_full | Goliath_blue_normal,
+        Goliath_type = 113,//  = Goliath_normal | Goliath_medium | Goliath_full | Goliath_yellow_normal | Goliath_yellow_medium | Goliath_yellow_full | Goliath_red_normal | Goliath_red_medium | Goliath_red_full | Goliath_blue_normal,
 
         Goliath_yellow_normal = 120,
         Goliath_yellow_medium = 121,
         Goliath_yellow_full = 122,
 
-        goliath_yellow_type = 123, //
+        Goliath_yellow_type = 123, //
 
         Goliath_red_normal = 130,
         Goliath_red_medium = 131,
         Goliath_red_full = 132,
 
-        goliath_red_type = 133, //
+        Goliath_red_type = 133, //
 
         Goliath_blue_normal = 140,
 
-        goliath_blue_type = 141, //
+        Goliath_blue_type = 141, //
 
         all_goliath_type = 142,
 

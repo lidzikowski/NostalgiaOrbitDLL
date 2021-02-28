@@ -13,7 +13,7 @@ namespace NostalgiaOrbitDLL.Items
             ItemShopType = ItemShopTypes.LF_3;
 
             CanBuyUridium = true;
-            CreditPurchase = new List<float>()
+            UridiumPurchase = new List<float>()
             {
                 10000
             };

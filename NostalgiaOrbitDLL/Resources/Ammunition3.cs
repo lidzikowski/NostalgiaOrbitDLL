@@ -25,6 +25,8 @@ namespace NostalgiaOrbitDLL.Resources
             CreditSale = new List<float>() {
                 10,
             };
+
+            CanBuyOnAuctionHouse = true;
         }
     }
 }

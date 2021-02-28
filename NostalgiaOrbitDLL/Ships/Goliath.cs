@@ -10,7 +10,7 @@ namespace NostalgiaOrbitDLL.Ships
         public static Goliath Instance { get; } = new Goliath();
         public Goliath()
         {
-            ShipType = PrefabTypes.goliath_type;
+            ShipType = PrefabTypes.Goliath_type;
             ItemShopType = ItemShopTypes.Goliath;
 
             Hitpoints = 256000;
@@ -25,7 +25,7 @@ namespace NostalgiaOrbitDLL.Ships
             CanBuyUridium = true;
             UridiumPurchase = new List<float>()
             {
-                800000
+                80000
             };
 
             Reward = new Reward()
@@ -36,16 +36,16 @@ namespace NostalgiaOrbitDLL.Ships
 
             ExperiencePerKill = new List<DroneExperience>()
             {
-                new DroneExperience(PrefabTypes.phoenix_type,   0),
-                new DroneExperience(PrefabTypes.yamato_type,    0),
-                new DroneExperience(PrefabTypes.leonov_type,    0),
-                new DroneExperience(PrefabTypes.defcom_type,    0),
-                new DroneExperience(PrefabTypes.liberator_type, 1),
-                new DroneExperience(PrefabTypes.piranha_type,   2),
-                new DroneExperience(PrefabTypes.nostromo_type,  4),
-                new DroneExperience(PrefabTypes.vengeance_type, 6),
-                new DroneExperience(PrefabTypes.bigboy_type,    8),
-                new DroneExperience(PrefabTypes.goliath_type,   25),
+                new DroneExperience(PrefabTypes.Phoenix_type,   0),
+                new DroneExperience(PrefabTypes.Yamato_type,    0),
+                new DroneExperience(PrefabTypes.Leonov_type,    0),
+                new DroneExperience(PrefabTypes.Defcom_type,    0),
+                new DroneExperience(PrefabTypes.Liberator_type, 1),
+                new DroneExperience(PrefabTypes.Piranha_type,   2),
+                new DroneExperience(PrefabTypes.Nostromo_type,  4),
+                new DroneExperience(PrefabTypes.Vengeance_type, 6),
+                new DroneExperience(PrefabTypes.Bigboy_type,    8),
+                new DroneExperience(PrefabTypes.Goliath_type,   25),
             };
 
             CanBuyOnAuctionHouse = true;

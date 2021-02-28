@@ -258,14 +258,14 @@ namespace NostalgiaOrbitDLL.Core
 
         public static bool IsShipPrefabType(this PrefabTypes prefab)
         {
-            return IsPrefabType(PrefabTypes.phoenix_type, prefab)
-              || IsPrefabType(PrefabTypes.yamato_type, prefab)
-              || IsPrefabType(PrefabTypes.leonov_type, prefab)
-              || IsPrefabType(PrefabTypes.defcom_type, prefab)
-              || IsPrefabType(PrefabTypes.liberator_type, prefab)
-              || IsPrefabType(PrefabTypes.piranha_type, prefab)
-              || IsPrefabType(PrefabTypes.nostromo_type, prefab)
-              || IsPrefabType(PrefabTypes.vengeance_type, prefab)
+            return IsPrefabType(PrefabTypes.Phoenix_type, prefab)
+              || IsPrefabType(PrefabTypes.Yamato_type, prefab)
+              || IsPrefabType(PrefabTypes.Leonov_type, prefab)
+              || IsPrefabType(PrefabTypes.Defcom_type, prefab)
+              || IsPrefabType(PrefabTypes.Liberator_type, prefab)
+              || IsPrefabType(PrefabTypes.Piranha_type, prefab)
+              || IsPrefabType(PrefabTypes.Nostromo_type, prefab)
+              || IsPrefabType(PrefabTypes.Vengeance_type, prefab)
               || IsPrefabType(PrefabTypes.all_bigboy_type, prefab)
               || IsPrefabType(PrefabTypes.all_goliath_type, prefab)
               || prefab switch
@@ -306,61 +306,61 @@ namespace NostalgiaOrbitDLL.Core
             else if (prefab_type == PrefabTypes.enemyShips)
                 return IsEnemyPrefabType(prefab);
 
-            else if (prefab_type == prefab && prefab == PrefabTypes.Admin)
+            else if (prefab_type == prefab)
                 return true;
 
             return prefab_type switch
             {
-                PrefabTypes.phoenix_type => prefab switch
+                PrefabTypes.Phoenix_type => prefab switch
                 {
                     PrefabTypes.Phoenix_normal => true,
                     PrefabTypes.Phoenix_medium => true,
                     PrefabTypes.Phoenix_full => true,
                     _ => false,
                 },
-                PrefabTypes.yamato_type => prefab switch
+                PrefabTypes.Yamato_type => prefab switch
                 {
                     PrefabTypes.Yamato_normal => true,
                     PrefabTypes.Yamato_medium => true,
                     PrefabTypes.Yamato_full => true,
                     _ => false,
                 },
-                PrefabTypes.leonov_type => prefab switch
+                PrefabTypes.Leonov_type => prefab switch
                 {
                     PrefabTypes.Leonov_normal => true,
                     PrefabTypes.Leonov_medium => true,
                     PrefabTypes.Leonov_full => true,
                     _ => false,
                 },
-                PrefabTypes.defcom_type => prefab switch
+                PrefabTypes.Defcom_type => prefab switch
                 {
                     PrefabTypes.Defcom_normal => true,
                     PrefabTypes.Defcom_medium => true,
                     PrefabTypes.Defcom_full => true,
                     _ => false,
                 },
-                PrefabTypes.liberator_type => prefab switch
+                PrefabTypes.Liberator_type => prefab switch
                 {
                     PrefabTypes.Liberator_normal => true,
                     PrefabTypes.Liberator_medium => true,
                     PrefabTypes.Liberator_full => true,
                     _ => false,
                 },
-                PrefabTypes.piranha_type => prefab switch
+                PrefabTypes.Piranha_type => prefab switch
                 {
                     PrefabTypes.Piranha_normal => true,
                     PrefabTypes.Piranha_medium => true,
                     PrefabTypes.Piranha_full => true,
                     _ => false,
                 },
-                PrefabTypes.nostromo_type => prefab switch
+                PrefabTypes.Nostromo_type => prefab switch
                 {
                     PrefabTypes.Nostromo_normal => true,
                     PrefabTypes.Nostromo_medium => true,
                     PrefabTypes.Nostromo_full => true,
                     _ => false,
                 },
-                PrefabTypes.vengeance_type => prefab switch
+                PrefabTypes.Vengeance_type => prefab switch
                 {
                     PrefabTypes.Vengeance_normal => true,
                     PrefabTypes.Vengeance_medium => true,
@@ -368,56 +368,56 @@ namespace NostalgiaOrbitDLL.Core
                     _ => false,
                 },
 
-                PrefabTypes.bigboy_type => prefab switch
+                PrefabTypes.Bigboy_type => prefab switch
                 {
                     PrefabTypes.Bigboy_normal => true,
                     PrefabTypes.Bigboy_medium => true,
                     PrefabTypes.Bigboy_full => true,
                     _ => false,
                 },
-                PrefabTypes.bigboy_red_type => prefab switch
+                PrefabTypes.Bigboy_red_type => prefab switch
                 {
                     PrefabTypes.Bigboy_red_normal => true,
                     PrefabTypes.Bigboy_red_medium => true,
                     PrefabTypes.Bigboy_red_full => true,
                     _ => false,
                 },
-                PrefabTypes.bigboy_green_type => prefab switch
+                PrefabTypes.Bigboy_green_type => prefab switch
                 {
                     PrefabTypes.Bigboy_green_normal => true,
                     PrefabTypes.Bigboy_green_medium => true,
                     PrefabTypes.Bigboy_green_full => true,
                     _ => false,
                 },
-                PrefabTypes.all_bigboy_type => IsPrefabType(PrefabTypes.bigboy_type, prefab) || IsPrefabType(PrefabTypes.bigboy_red_type, prefab) || IsPrefabType(PrefabTypes.bigboy_green_type, prefab),
+                PrefabTypes.all_bigboy_type => IsPrefabType(PrefabTypes.Bigboy_type, prefab) || IsPrefabType(PrefabTypes.Bigboy_red_type, prefab) || IsPrefabType(PrefabTypes.Bigboy_green_type, prefab),
 
-                PrefabTypes.goliath_type => prefab switch
+                PrefabTypes.Goliath_type => prefab switch
                 {
                     PrefabTypes.Goliath_normal => true,
                     PrefabTypes.Goliath_medium => true,
                     PrefabTypes.Goliath_full => true,
                     _ => false,
                 },
-                PrefabTypes.goliath_yellow_type => prefab switch
+                PrefabTypes.Goliath_yellow_type => prefab switch
                 {
                     PrefabTypes.Goliath_yellow_normal => true,
                     PrefabTypes.Goliath_yellow_medium => true,
                     PrefabTypes.Goliath_yellow_full => true,
                     _ => false,
                 },
-                PrefabTypes.goliath_red_type => prefab switch
+                PrefabTypes.Goliath_red_type => prefab switch
                 {
                     PrefabTypes.Goliath_red_normal => true,
                     PrefabTypes.Goliath_red_medium => true,
                     PrefabTypes.Goliath_red_full => true,
                     _ => false,
                 },
-                PrefabTypes.goliath_blue_type => prefab switch
+                PrefabTypes.Goliath_blue_type => prefab switch
                 {
                     PrefabTypes.Goliath_blue_normal => true,
                     _ => false,
                 },
-                PrefabTypes.all_goliath_type => IsPrefabType(PrefabTypes.goliath_type, prefab) || IsPrefabType(PrefabTypes.goliath_yellow_type, prefab) || IsPrefabType(PrefabTypes.goliath_red_type, prefab) || IsPrefabType(PrefabTypes.goliath_blue_type, prefab),
+                PrefabTypes.all_goliath_type => IsPrefabType(PrefabTypes.Goliath_type, prefab) || IsPrefabType(PrefabTypes.Goliath_yellow_type, prefab) || IsPrefabType(PrefabTypes.Goliath_red_type, prefab) || IsPrefabType(PrefabTypes.Goliath_blue_type, prefab),
 
 
 

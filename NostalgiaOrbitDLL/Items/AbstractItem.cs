@@ -47,7 +47,7 @@ namespace NostalgiaOrbitDLL.Items
                 ItemTypes.REP_1 => REP_1.Instance,
                 ItemTypes.REP_2 => REP_2.Instance,
                 ItemTypes.REP_3 => REP_3.Instance,
-                _ => null,
+                _ => throw new NotImplementedException(itemType.ToString()),
             };
         }
     }

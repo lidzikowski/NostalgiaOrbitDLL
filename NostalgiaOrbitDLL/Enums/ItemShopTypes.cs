@@ -28,10 +28,11 @@ namespace NostalgiaOrbitDLL
         LF_3 = 33,
 
         // Ammunitions
-        Ammunition1 = 40,
-        Ammunition2 = 41,
-        Ammunition3 = 42,
-        AmmunitionSab = 43,
+        AmmunitionBuy = 40,
+        Ammunition1 = 41,
+        Ammunition2 = 42,
+        Ammunition3 = 43,
+        AmmunitionSab = 44,
 
         // Rockets
         Rocket1 = 50,

@@ -34,16 +34,16 @@ namespace NostalgiaOrbitDLL.Ships
 
             ExperiencePerKill = new List<DroneExperience>()
             {
-                new DroneExperience(PrefabTypes.phoenix_type,   10),
-                new DroneExperience(PrefabTypes.yamato_type,    20),
-                new DroneExperience(PrefabTypes.leonov_type,    30),
-                new DroneExperience(PrefabTypes.defcom_type,    40),
-                new DroneExperience(PrefabTypes.liberator_type, 50),
-                new DroneExperience(PrefabTypes.piranha_type,   60),
-                new DroneExperience(PrefabTypes.nostromo_type,  70),
-                new DroneExperience(PrefabTypes.vengeance_type, 80),
-                new DroneExperience(PrefabTypes.bigboy_type,    90),
-                new DroneExperience(PrefabTypes.goliath_type,   100),
+                new DroneExperience(PrefabTypes.Phoenix_type,   10),
+                new DroneExperience(PrefabTypes.Yamato_type,    20),
+                new DroneExperience(PrefabTypes.Leonov_type,    30),
+                new DroneExperience(PrefabTypes.Defcom_type,    40),
+                new DroneExperience(PrefabTypes.Liberator_type, 50),
+                new DroneExperience(PrefabTypes.Piranha_type,   60),
+                new DroneExperience(PrefabTypes.Nostromo_type,  70),
+                new DroneExperience(PrefabTypes.Vengeance_type, 80),
+                new DroneExperience(PrefabTypes.Bigboy_type,    90),
+                new DroneExperience(PrefabTypes.Goliath_type,   100),
             };
         }
     }

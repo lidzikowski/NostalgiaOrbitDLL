@@ -245,7 +245,7 @@ namespace NostalgiaOrbitDLL
         {
             OwnedShips = new List<OwnedShip>()
             {
-                new OwnedShip(PrefabTypes.phoenix_type)
+                new OwnedShip(PrefabTypes.Phoenix_type)
             };
             ShipType = PrefabTypes.Phoenix_normal;
             Items = new List<Item>()

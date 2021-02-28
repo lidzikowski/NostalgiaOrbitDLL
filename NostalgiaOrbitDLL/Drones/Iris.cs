@@ -15,32 +15,34 @@ namespace NostalgiaOrbitDLL.Drones
 
             LaserOrShieldSlots = 2;
 
-            CanBuyByCredit = true;
-            CreditPurchase = new List<float>() {
-                15000,
-                24000,
-                42000,
-                60000,
-                84000,
-                96000,
-                126000,
-                200000,
+            CanBuyUridium = true;
+            UridiumPurchase = new List<float>() {
+                15000,  //1
+                24000,  //2
+                42000,  //3
+                60000,  //4
+                84000,  //5
+                96000,  //6
+                126000, //7
+                200000, //8
             };
 
             CanSellByCredit = true;
             CreditSale = new List<float>() {
-                37500,
-                60000,
-                105000,
-                150000,
-                210000,
-                240000,
-                315000,
-                500000,
+                37500,  //1
+                60000,  //2
+                105000, //3
+                150000, //4
+                210000, //5
+                240000, //6
+                315000, //7
+                500000, //8
             };
 
             MaxDronesType = 8;
             CombineWithDrone = DroneTypes.Flax;
+
+            CanBuyOnAuctionHouse = true;
 
             SurviveDestructions = 60;
         }

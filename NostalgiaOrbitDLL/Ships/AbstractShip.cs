@@ -36,63 +36,63 @@ namespace NostalgiaOrbitDLL.Ships
 
         public static AbstractShip GetInstance(PrefabTypes shipType)
         {
-            if (DLLHelpers.IsPrefabType(PrefabTypes.phoenix_type, shipType))
+            if (DLLHelpers.IsPrefabType(PrefabTypes.Phoenix_type, shipType))
             {
                 return Phoenix.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.yamato_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Yamato_type, shipType))
             {
                 return Yamato.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.leonov_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Leonov_type, shipType))
             {
                 return Leonov.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.defcom_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Defcom_type, shipType))
             {
                 return Defcom.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.liberator_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Liberator_type, shipType))
             {
                 return Liberator.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.piranha_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Piranha_type, shipType))
             {
                 return Piranha.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.nostromo_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Nostromo_type, shipType))
             {
                 return Nostromo.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.vengeance_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Vengeance_type, shipType))
             {
                 return Vengeance.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.bigboy_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Bigboy_type, shipType))
             {
                 return BigBoy.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.bigboy_red_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Bigboy_red_type, shipType))
             {
                 return BigBoy_Red.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.bigboy_green_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Bigboy_green_type, shipType))
             {
                 return BigBoy_Green.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.goliath_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Goliath_type, shipType))
             {
                 return Goliath.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.goliath_yellow_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Goliath_yellow_type, shipType))
             {
                 return Goliath_Yellow.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.goliath_red_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Goliath_red_type, shipType))
             {
                 return Goliath_Red.Instance;
             }
-            else if (DLLHelpers.IsPrefabType(PrefabTypes.goliath_blue_type, shipType))
+            else if (DLLHelpers.IsPrefabType(PrefabTypes.Goliath_blue_type, shipType))
             {
                 return Goliath_Blue.Instance;
             }
